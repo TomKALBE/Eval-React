@@ -56,10 +56,10 @@ export default function Day(props) {
                                 
                                     <div style={{flexDirection:'column', display:'flex'}}>
                                         <div>
-                                            <span>Titre : </span><strong>{event[0].title}</strong>
+                                            <span>Titre : </span><strong>{event[index].title}</strong>
                                         </div>
                                         <div>
-                                            <span>Contenu :</span>{event[0].body}
+                                            <span>Contenu :</span>{event[index].body}
                                         </div>
                                     </div>
                                     <button style={{height: 20}} id='iuende' onClick={()=>{deleteEvent(item.id)}}>Supprimer</button>
